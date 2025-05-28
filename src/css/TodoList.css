@@ -1,0 +1,124 @@
+.todoListMainDiv {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: antiquewhite;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.TodoList {
+    text-align: center;
+}
+
+.todoListMainDiv hr {
+    width: 100%;
+}
+
+.todoListMainDiv ul {
+  padding-left: 40px;    
+  margin-left: 0;
+}
+
+.todoListLi {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px;
+  font-size: 19px;
+}
+
+.todoListMainDivButton {
+  color: black;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-left: 10px;
+  background-color: white;
+  font-size: 17px;
+}
+
+.todoListMainDivButton:hover {
+    background-color: red;
+    transition: 0.3s;
+}
+
+.backToAddtoListPage {
+    padding: 5px;
+    width: 30%;
+    background-color: white;
+}
+
+.backToAddtoListPage:hover {
+    background-color: greenyellow;
+    transition: 0.3s;
+}
+
+.backToAddtoListPageDiv {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .todoListMainDiv {
+    padding: 15px;
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .todoListMainDiv ul {
+    padding-left: 20px; 
+  }
+
+  .todoListLi {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+    font-size: 19px;
+  }
+
+  .todoListMainDivButton {
+    color: black;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-left: 10px;
+    background-color: white;
+    font-size: 17px;
+  }
+
+  .backToAddtoListPage {
+    width: 80%;
+    font-size: 16px;
+    padding: 10px 0;
+  }
+
+  .backToAddtoListPageDiv {
+    padding: 10px 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .todoListMainDiv {
+    padding: 10px;
+  }
+
+  .todoListLi {
+    font-size: 16px;
+    padding: 6px 5px;
+  }
+
+  .todoListMainDivButton {
+    font-size: 14px;
+    padding: 8px 0;
+  }
+
+  .backToAddtoListPage {
+    width: 100%;
+    font-size: 14px;
+  }
+}

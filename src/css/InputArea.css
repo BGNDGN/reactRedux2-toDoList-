@@ -1,0 +1,237 @@
+.mainDiv {
+    background-image: url('https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExNGZibTd3dzQ3aG9uYm92ZHVyNG04NGxrdGs4ODh5MDl6NW01MG11NyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/2ikwIgNrmPZICNmRyX/giphy.gif');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover; 
+    opacity: 1;
+    width: 1900px; 
+    height: 950px;
+    margin-top: -8px;
+    margin-left: -8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.inputAreaMainDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: antiquewhite;
+    padding-bottom: 35px;
+    border-radius: 10px;
+    width: 52%;
+}
+
+.inputAreaMainDiv h5 {
+    font-size: 20px;
+}
+
+.inputAreaMainDiv hr {
+    width: 50%;
+    margin-top: -20px;
+    margin-bottom: 30px;
+}
+
+.inputAreaMainDiv textarea {
+    resize: none;
+    font-size: 17px;
+    margin-top: 10px;
+    height: 70px;
+    padding: 5px
+}
+
+.abc {
+    display: flex;
+    align-items: flex-start; 
+    padding: 10px;
+}
+
+.addButton {
+    padding: 9px;
+    width: 60px;
+    height: 83px;
+    font-size: 16px;
+    background-color: white;
+    margin-left: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgb(255, 238, 0);;
+    color: black;
+    margin-top: 9.5px;
+}
+
+.addButton:hover {
+    background-color: greenyellow;
+    color: black;
+    transition: 0.3s;
+}
+
+.listPageDiv {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.listPage {
+    background-color: white;
+    font-size: 17px;
+    padding: 10px;
+    width: 29%;
+    border-radius: 10px;
+}
+
+.listPage:hover {
+    background-color: rgb(255, 238, 0);
+    transition: 0.3s;
+}
+
+.photograph {
+    border-radius: 50%;
+    width: 100px;
+}
+
+.informationDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    background-color: beige;
+    padding: 20px;
+    border-radius: 10px;
+    width: 50%;
+}
+
+.name {
+    text-align: center;
+    font-size: 21px;
+}
+
+.socialPlatformName {
+    font-size: 18px;
+    color: black ;
+    text-align: center;
+}
+
+.informationDiv hr {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    width: 100%;
+}
+
+@media (max-width: 600px) {
+  .mainDiv {
+    width: 100vw;   
+    height: 100vh;  
+    margin: 0;
+    padding: 10px;
+    background-position: center;
+  }
+
+  .inputAreaMainDiv {
+    width: 90%;  
+    padding-bottom: 20px;
+  }
+
+  .inputAreaMainDiv h5 {
+    font-size: 18px;
+  }
+
+  .inputAreaMainDiv hr {
+    width: 80%;
+    margin-top: -15px;
+    margin-bottom: 20px;
+  }
+
+  .inputAreaMainDiv textarea {
+    height: 60px;
+    font-size: 16px;
+  }
+
+  .abc {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .addButton {
+    width: 100%;
+    height: 50px;
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  .listPage {
+    width: 100%;
+    font-size: 16px;
+    padding: 8px;
+  }
+
+  .informationDiv {
+    width: 90%;
+    padding: 15px;
+    margin-top: 30px;
+  }
+
+  .name {
+    font-size: 20px;
+  }
+
+  .socialPlatformName {
+    font-size: 16px;
+  }
+
+  .photograph {
+    width: 70px;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 950px) {
+  .mainDiv {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    margin-top: -10px;
+  }
+
+  .inputAreaMainDiv {
+    width: 70%;
+    padding-bottom: 25px;
+  }
+
+  .inputAreaMainDiv h5 {
+    font-size: 19px;
+  }
+
+  .inputAreaMainDiv hr {
+    width: 70%;
+  }
+
+  .inputAreaMainDiv textarea {
+    height: 65px;
+    font-size: 16px;
+  }
+
+  .addButton {
+    width: 80px;
+    height: 79px;
+    margin-left: 10px;
+  }
+
+  .listPage {
+    width: 70%;
+    font-size: 16px;
+  }
+
+  .informationDiv {
+    width: 65%;
+    padding: 18px;
+  }
+
+  .photograph {
+    width: 85px;
+  }
+}
